@@ -60,9 +60,33 @@ video {
    margin:0 auto;
    padding:1em;
 }
+
+.naama {
+     width: 90%;
+    height: auto;
+    padding-bottom: 2em;
+    border-radius: 10%;
+}
 /*responsiivisuus*/
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+    .naama {
+         width: 40%;
+    height: auto;
+        padding-bottom: 1em;
+    }
 }
+
+/*responsiivisuus*/
+@media screen and (max-width: 900px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    .naama {
+         width: 80%;
+        height: auto;
+        padding-bottom: 1em;
+    }
+}
+
 
