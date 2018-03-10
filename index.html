@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main2.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse"><a target="_blank" href="https://www.instagram.com/sininenkettu/" class="fa fa-instagram" style="text-decoration: none"></a><a target="_blank" href="https://www.linkedin.com/in/noora-v-0aa532150/" class="fa fa-linkedin" style="text-decoration: none"></a>
+            <div class="container-fluid"> 
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Portfolio</a>
+                </div> 
+                <ul class="nav navbar-nav">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li class='dropdown'><a class="dropdown-toggle" data-toggle="dropdown" href="#">Work
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href='digitalart.html'>Digital Art</a></li>
+                            <li><a href='photography.html'>Photography</a></li>
+                            <li><a href='video.html'>Video</a></li>
+                            <li><a href='animate.html'>Fox Animation</a></li>
+                            <li><a href='animate2.html'>Shark Animation</a></li>
+                            
+                            <li><a href='3dmodeling.html'>3d Modeling</a></li>
+                            
+
+                        </ul>
+
+                    
+                    <li class="right"><a href="aboutme.html">About Me</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+
+
+        <div class="jumbotron text-center"><h1>PORTFOLIO</h1>
+            <p></p> 
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Welcome to my Portfolio!</h4>
+                    <p><i>Short Introduction</i></p>
+                    <p>My name is Noora, and I study in the Degree Programme of Business Information Systems at Oulu University of Applied Sciences. I specialize in Internet Services and Digital Media.</p>
+                    <p>This is my Portfolio, where I have collected showcases in different skills. Also, this web site is a showcase of my Web Design skills.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h4>I am interested in the following areas:</h4>
+                    <ul>
+                        <li>Drawing</li>
+                        <li>Photography</li>
+                        <li>Video Editing</li>
+                        <li>3D Modeling</li>
+                        <li>Web Design</li>
+                        <li>Game Design</li>
+                        <li>Writing</li>
+                        <li>English Literature</li>
+                        <li>Video Games</li>  
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h4>Skills in Adobe CC Softwares:</h4>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>InDesign</li>
+                        <li>After Effects</li>
+                        <li>Animate</li>
+                        <li>Premiere</li>
+                        <li>DreamWeaver</li>  
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h4>Skills in other Softwares:</h4>
+                    <ul>
+                        <li>Blender</li>
+                        <li>Autodesk 3ds Max</li>
+                        <li>Unity</li>
+                    </ul>
+
+                    <h4>Knowledge of Programming languages:</h4>
+                    <ul> 
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java</li>
+                        <li>JavaScript</li></ul>
+                    <h4>Knowledge of Libraries and Frameworks:</h4>
+                    <ul> 
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+
+                </div>
+              
+            </div>
+            <div></div>
+            <div id="footer">
+                <footer>
+                    &copy; 2018<script>new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());</script>, 
+                    Noora Virtala. </footer>
+            </div>
+        </div>
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+    </body>
+</html>
