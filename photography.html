@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/main2.css">
+        <link href="lightbox.css" rel="stylesheet">
+        <link href="efektit/Hover-master/css/hover.css" media="all" rel="stylesheet">
+        <link href="Kuvat/favicon.ico" rel="icon" type="image/gif">
+        <link href="css/muutsivut_tyylitiedosto.css" rel="stylesheet">
+        
+        
+
+    </head>
+    <body>
+       <nav class="navbar navbar-inverse"><a target="_blank" href="https://www.instagram.com/sininenkettu/" class="fa fa-instagram" style="text-decoration: none"></a><a target="_blank" href="https://www.linkedin.com/in/noora-v-0aa532150/" class="fa fa-linkedin" style="text-decoration: none"></a>
+            <div class="container-fluid"> 
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Portfolio</a>
+                </div> 
+                <ul class="nav navbar-nav">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li class='dropdown'><a class="dropdown-toggle" data-toggle="dropdown" href="#">Work
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href='digitalart.html'>Digital Art</a></li>
+                            <li><a href='photography.html'>Photography</a></li>
+                            <li><a href='video.html'>Video</a></li>
+                            <li><a href='animate.html'>Fox Animation</a></li>
+                            <li><a href='animate2.html'>Shark Animation</a></li>
+                            
+                            <li><a href='3dmodeling.html'>3d Modeling</a></li>
+                            
+
+                        </ul>
+
+                    <li class="right"><a href="aboutme.html">About Me</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+
+        <div class="jumbotron text-center"><h1>PORTFOLIO</h1>
+            <p></p> 
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Nature&Animals/kuva_01_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Nature&Animals/kuva_02_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Nature&Animals/kuva_03_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Nature&Animals/kuva_04_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Nature&Animals/kuva_05_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Nature&Animals/kuva_06_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(6)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Nature&Animals/kuva_07_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(7)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Nature&Animals/kuva_08_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(8)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Nature&Animals/kuva09_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(9)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva2_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(10)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva3_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(11)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva4_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(12)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva5_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(13)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva6_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(14)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva7_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(15)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva8_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(16)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva9_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(17)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva10_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(18)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva11_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(19)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva12_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(20)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva13_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(21)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva14_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(22)">
+            </div><div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva15_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(23)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva16_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(24)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/People/kuva17_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(25)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Objects/kuva_a_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(26)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Objects/kuva_b_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(27)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Objects/kuva_c_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(28)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Objects/kuva_d_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(29)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Objects/kuva_e_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(30)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Objects/kuva_f_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(31)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Objects/kuva_g_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(32)">
+            </div>
+            <div class="column">
+                <img class="hvr-grow hover-shadow cursor" src="kuvat/Objects/kuva_h_pieni.jpg" style="width:100%" onclick="openModal();currentSlide(33)">
+            </div>
+            
+            
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 33</div>
+                    <img src="kuvat/Nature&Animals/kuva_01.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 /33</div>
+                    <img src="kuvat/Nature&Animals/kuva_02.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 33</div>
+                    <img src="kuvat/Nature&Animals/kuva_03.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 33</div>
+                    <img src="kuvat/Nature&Animals/kuva_04.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 33</div>
+                    <img src="kuvat/Nature&Animals/kuva_05.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">6 / 33</div>
+                    <img src="kuvat/Nature&Animals/kuva_06.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">7 / 33</div>
+                    <img src="kuvat/Nature&Animals/kuva_07.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">8 / 33</div>
+                    <img src="kuvat/Nature&Animals/kuva_08.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">9 / 33</div>
+                    <img src="kuvat/Nature&Animals/kuva09.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">10 / 33</div>
+                    <img src="kuvat/People/kuva2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">11 / 33</div>
+                    <img src="kuvat/People/kuva3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">12 / 33</div>
+                    <img src="kuvat/People/kuva4.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">13 / 33</div>
+                    <img src="kuvat/People/kuva5.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">14 / 33</div>
+                    <img src="kuvat/People/kuva6.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">15 / 33</div>
+                    <img src="kuvat/People/kuva7.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">16 / 33</div>
+                    <img src="kuvat/People/kuva8.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">17 / 33</div>
+                   <img src="kuvat/People/kuva9.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">18 / 33</div>
+                   <img src="kuvat/People/kuva10.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">19 / 33</div>
+                   <img src="kuvat/People/kuva11.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">20 / 33</div>
+                   <img src="kuvat/People/kuva12.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">21 / 33</div>
+                   <img src="kuvat/People/kuva13.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">22 / 33</div>
+                   <img src="kuvat/People/kuva14.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">23 / 33</div>
+                   <img src="kuvat/People/kuva15.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">24 / 33</div>
+                   <img src="kuvat/People/kuva16.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">25 / 33</div>
+                   <img src="kuvat/People/kuva17.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">26 / 33</div>
+                   <img src="kuvat/Objects/kuva_a.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">27 / 33</div>
+                   <img src="kuvat/Objects/kuva_b.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">28 / 33</div>
+                   <img src="kuvat/Objects/kuva_c.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">29 / 33</div>
+                   <img src="kuvat/Objects/kuva_d.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">30 / 33</div>
+                   <img src="kuvat/Objects/kuva_e.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">31 / 33</div>
+                   <img src="kuvat/Objects/kuva_f.jpg" style="width:100%">
+                </div><div class="mySlides">
+                    <div class="numbertext">32 / 33</div>
+                   <img src="kuvat/Objects/kuva_g.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">33 / 33</div>
+                   <img src="kuvat/Objects/kuva_h.jpg" style="width:100%">
+                </div>
+                
+                
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Nature&Animals/kuva_01.jpg" style="width:100%" style="width:100%" onclick="currentSlide(1)" alt="Spread">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Nature&Animals/kuva_02.jpg" style="width:100%" onclick="currentSlide(2)" alt="Melting Away">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Nature&Animals/kuva_03.jpg" style="width:100%" onclick="currentSlide(3)" alt="Drops">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Nature&Animals/kuva_04.jpg" style="width:100%" onclick="currentSlide(4)" alt="Cheeky">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Nature&Animals/kuva_05.jpg" style="width:100%" onclick="currentSlide(5)" alt="By the Lake">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Nature&Animals/kuva_06.jpg" style="width:100%" onclick="currentSlide(6)" alt="Minefield">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Nature&Animals/kuva_07.jpg" style="width:100%" onclick="currentSlide(7)" alt="Almost Naked">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Nature&Animals/kuva_08.jpg" style="width:100%" onclick="currentSlide(8)" alt="Never Give Up">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Nature&Animals/kuva09.jpg" style="width:100%" onclick="currentSlide(9)" alt="Winter is Coming">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva2.jpg" style="width:100%" onclick="currentSlide(10)" alt="No Smoking">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva3.jpg" style="width:100%" onclick="currentSlide(11)" alt="Heidi I">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva4.jpg" style="width:100%" onclick="currentSlide(12)" alt="The Tourists">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva5.jpg" style="width:100%" onclick="currentSlide(13)" alt="Leaving">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva6.jpg" style="width:100%" onclick="currentSlide(14)" alt="Circus Performer I">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva7.jpg" style="width:100%" onclick="currentSlide(15)" alt="Justus I">
+                </div><div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva8.jpg" style="width:100%" onclick="currentSlide(16)" alt="Granny">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva9.jpg" style="width:100%" onclick="currentSlide(17)" alt="Bring up the Fire">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva10.jpg" style="width:100%" onclick="currentSlide(18)" alt="Iida I">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva11.jpg" style="width:100%" onclick="currentSlide(19)" alt="Sami">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva12.jpg" style="width:100%" onclick="currentSlide(20)" alt="Justus II">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva13.jpg" style="width:100%" onclick="currentSlide(21)" alt="Freckles">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva14.jpg" style="width:100%" onclick="currentSlide(22)" alt="Circus Perfomer II">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva15.jpg" style="width:100%" onclick="currentSlide(23)" alt="Iida II">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva16.jpg" style="width:100%" onclick="currentSlide(24)" alt="On Fire">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/People/kuva17.jpg" style="width:100%" onclick="currentSlide(25)" alt="Heidi II">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Objects/kuva_a.jpg" style="width:100%" onclick="currentSlide(26)" alt="The Moment">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Objects/kuva_b.jpg" style="width:100%" onclick="currentSlide(27)" alt="Gold and Blue">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Objects/kuva_c.jpg" style="width:100%" onclick="currentSlide(28)" alt="Bubbles">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Objects/kuva_d.jpg" style="width:100%" onclick="currentSlide(29)" alt="Chili up your Life">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Objects/kuva_e.jpg" style="width:100%" onclick="currentSlide(30)" alt="Tea Time">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Objects/kuva_f.jpg" style="width:100%" onclick="currentSlide(31)" alt="Glogg">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Objects/kuva_g.jpg" style="width:100%" onclick="currentSlide(32)" alt="Other Side">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="kuvat/Objects/kuva_h.jpg" style="width:100%" onclick="currentSlide(33)" alt="Pepsi">
+                </div>
+                
+                
+                
+
+
+            </div>
+        </div>
+
+        <script>
+            function openModal() {
+                document.getElementById('myModal').style.display = "block";
+            }
+
+            function closeModal() {
+                document.getElementById('myModal').style.display = "none";
+            }
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+
+
+        <div id="footer">
+            <footer>
+                &copy; 2018<script>new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());</script>, 
+                Noora Virtala.</footer>
+        </div>
+        <script src="lightbox/js/lightbox-plus-jquery.js"></script>
+
+
+    </body>
+</html>

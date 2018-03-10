@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main2.css">
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <nav class="navbar navbar-inverse"><a target="_blank" href="https://www.instagram.com/sininenkettu/" class="fa fa-instagram" style="text-decoration: none"></a><a target="_blank" href="https://www.linkedin.com/in/noora-v-0aa532150/" class="fa fa-linkedin" style="text-decoration: none"></a>
+            <div class="container-fluid"> 
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Portfolio</a>
+                </div> 
+                <ul class="nav navbar-nav">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li class='dropdown'><a class="dropdown-toggle" data-toggle="dropdown" href="#">Work
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href='digitalart.html'>Digital Art</a></li>
+                            <li><a href='photography.html'>Photography</a></li>
+                            <li><a href='video.html'>Video</a></li>
+                            <li><a href='animate.html'>Fox Animation</a></li>
+                            <li><a href='animate2.html'>Shark Animation</a></li>
+
+                            <li><a href='3dmodeling.html'>3d Modeling</a></li>
+
+                        </ul>
+
+                    <li class="right"><a href="aboutme.html">About Me</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+
+        <!--Page title-->
+        <div class="jumbotron text-center"><h1>PORTFOLIO</h1>
+            <p></p> 
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <!--About the author-->
+                <div class="col-sm-6"> 
+                    <p>Hi there!</p><br>
+                    <p>My name is Noora and I am 31 years old from Oulu. I moved from Lahti to Oulu, Lahti is approximately 600 kilometers to south from Oulu. Biggest things that I've had to adjust to are not knowing anyone in Oulu, the weather and the distance between my family and me.</p>
+                    <p>I am a very hard working busy bee. I like to finish what I have started. I have been told that I have tunnel vision, when I do school or work related things. That means I pretty much sunk into what I am currently doing.</p>                    
+                    <p> My weaknesses are perfectionism, lack of social skills and taking too much responsibility for myself.</p>
+
+                    <p>It's very hard for me to find strengths in myself. My greatest strengths are perseverance, attention to detail and ability to work alone.</p>
+                    <p>I like all kinds of visual things, you might say I have an eye for esthetics. I don't mind coding, but it's not really the thing I love to do.</p>
+                    <p>I love video games. If I have any spare time, I usually spend it with video games. Most played game for me is World of Warcraft.</p>
+                    <p>Science fiction and fantasy is close to my hearth. If I see a new scifi or fantasy series in Netflix, I pretty much have to see it. No questions asked.  </p>
+                </div>
+
+            </div>
+        </div>
+        <!--footer-->  
+        <div id="footer">
+            <footer>
+                &copy; 2018<script>new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());</script>, 
+                Noora Virtala. </footer>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                $('.dropdown-submenu a.test').on("click", function (e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+        </script>
+    </body>
+</html>
