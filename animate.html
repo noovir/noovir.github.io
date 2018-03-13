@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Noora Virtala's Portfolio</title>
+        <title>Noora's Portfolio</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -9,7 +9,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main2.css">
-        <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+          <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="js/kettu.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
@@ -39,7 +39,7 @@ function handleComplete(evt,comp) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib.kettu2();
+	exportRoot = new lib.kettu();
 	stage = new lib.Stage(canvas);	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
@@ -212,13 +212,13 @@ function playSound(id, loop) {
             <h6>Background Music: <br><br>"Air Prelude" Kevin MacLeod (incompetech.com)<br>
 Licensed under Creative Commons: By Attribution 3.0 License
 http://creativecommons.org/licenses/by/3.0/</h6></div>
-       
-                    <div id="animation_container" style="background-color:rgba(66, 66, 66, 1.00); width:1280px; height:720px">
+        <div id="animation_container" style="background-color:rgba(66, 66, 66, 1.00); width:1280px; height:720px">
 		<canvas id="canvas" width="1280" height="720" style=" display: block; background-color:rgba(66, 66, 66, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1280px; height:720px; position: absolute; left: 0px; top: 0px; display: block;">
 		
                 </div>
 	</div>
+                
                 
 	
               
