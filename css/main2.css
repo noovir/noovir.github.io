@@ -67,6 +67,8 @@ video {
     padding-bottom: 2em;
     border-radius: 10%;
 }
+
+
 /*responsiivisuus*/
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
@@ -75,6 +77,9 @@ video {
          width: 40%;
     height: auto;
         padding-bottom: 1em;
+    }
+    .canvas {
+        max-width: 599px;
     }
 }
 
@@ -87,6 +92,7 @@ video {
         height: auto;
         padding-bottom: 1em;
     }
+    .canvas {
+        max-width: 899px;
+    }
 }
-
-
