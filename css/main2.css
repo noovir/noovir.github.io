@@ -78,8 +78,8 @@ video {
     height: auto;
         padding-bottom: 1em;
     }
-    .canvas {
-        max-width: 599px;
+   .canvas, .animation_container, .dom_overlay_container {
+        max-width: 80%;
     }
 }
 
@@ -92,7 +92,7 @@ video {
         height: auto;
         padding-bottom: 1em;
     }
-    .canvas {
-        max-width: 899px;
+     .canvas, .animation_container, .dom_overlay_container {
+        max-width: 80%;
     }
 }
