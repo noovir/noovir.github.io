@@ -223,6 +223,12 @@ img.hover-shadow {
    .canvas, .animation_container, .dom_overlay_container {
         max-width: 80%;
     }
+      .column {
+        
+  float: left;
+  width: 50%;
+}
+    }
 }
 
 /*responsiivisuus*/
@@ -237,4 +243,9 @@ img.hover-shadow {
      .canvas, .animation_container, .dom_overlay_container {
         max-width: 80%;
     }
+       .column {
+        float:left;
+       width: 33.3%;
+    }
+}
 }
