@@ -65,13 +65,7 @@ ul.topnav {
 
 ul.topnav li {float: left;}
 
-ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+
 .jumbotron {
     background-color: #3fbdd6;
     font-family: "Shadows Into Light";
