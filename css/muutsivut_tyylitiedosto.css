@@ -13,6 +13,19 @@ body {margin: 0;
 .content {
     margin:0 auto;
 }
+/*social media*/
+.fa {
+  padding: 3px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color:white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
 .row {
     margin:0 auto;
 }
@@ -175,19 +188,7 @@ ul.topnav li a:hover:not(.active) {background-color: #111;}
 ul.topnav li a.active {background-color: #d66a3f;}
 
 ul.topnav li.right {float: right;}
-/*social media*/
-.fa {
-  padding: 3px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  color:white;
-}
-.fa:hover {
-    opacity: 0.7;
-}
+
 
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
