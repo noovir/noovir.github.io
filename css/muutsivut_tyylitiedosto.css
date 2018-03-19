@@ -227,12 +227,12 @@ img.hover-shadow {
 }
 /*social media*/
 .fa {
-  padding: 5px;
+  padding: 2px;
   font-size: 30px;
-  width: 50px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 2px 2px;
   color:white;
 }
 .fa:hover {
