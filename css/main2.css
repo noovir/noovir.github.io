@@ -11,8 +11,9 @@ body {margin: 0;
       padding-bottom: 6rem;
       min-height: 100%;}
 
-a {
+a:link, a:visited {
 text-decoration:none;
+color: white;
 }
 .content {
     margin:0 auto;
