@@ -54,7 +54,19 @@ li.dropdown {
 .row {
     margin:0 auto;
 }
-
+/*social media*/
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color:white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
 ul.topnav {
     list-style-type: none;
     margin: 0;
