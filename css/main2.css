@@ -57,7 +57,7 @@ padding:1em;
     opacity: 0.7;
     
 /*digital_art-sivun video ja sen säätö*/
-video {
+#video {
     width: 100%;
     height: auto;
 }
